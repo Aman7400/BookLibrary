@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:id="@+id/bookCardHolder"
+    android:padding="10dp"
+    android:background="@drawable/book_card"
+    android:gravity="center_vertical"
+
+    android:layout_height="wrap_content"
+    android:minHeight="100dp">
+
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/serialNo"-->
+<!--        android:text="1."-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginRight="10dp"-->
+
+<!--        android:fontFamily="@font/poppins"-->
+<!--        android:textColor="@color/black"-->
+
+
+<!--        android:layout_width="wrap_content"-->
+<!--        android:textSize="30sp"-->
+<!--        android:layout_height="wrap_content"/>-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textAllCaps="true"
+            android:padding="5dp"
+            android:text="The adventures of Tom Sawyer"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:id="@+id/BookTitle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingLeft="10dp"
+android:textAllCaps="true"
+            android:text="Charles Dickens"
+            android:textSize="20dp"
+            android:fontFamily="@font/poppins"
+            android:id="@+id/BookAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:text="4.5"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/orange_red"
+        android:fontFamily="@font/ubuntu_bold"
+        android:drawableLeft="@drawable/ic_baseline_star_24"
+        android:drawableTint="@color/orange_yellow"
+        android:id="@+id/BookRating"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+
+
+
+
+
+</LinearLayout>

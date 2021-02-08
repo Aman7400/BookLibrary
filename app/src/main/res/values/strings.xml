@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Book Library</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="review">Write A Review</string>
+    <string name="added_on">Added on</string>
+    <string name="update_Title">New Title</string>
+</resources>
